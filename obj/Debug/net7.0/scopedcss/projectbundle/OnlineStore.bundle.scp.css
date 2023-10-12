@@ -1,0 +1,70 @@
+/* _content/OnlineStore/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Reset some default styles */
+body[b-j4cozyogpg], h1[b-j4cozyogpg], h2[b-j4cozyogpg], h3[b-j4cozyogpg], p[b-j4cozyogpg] {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body[b-j4cozyogpg] {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container[b-j4cozyogpg] {
+  margin-top: 20px;
+}
+
+/* Header styles */
+header[b-j4cozyogpg] {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+.navbar-brand[b-j4cozyogpg] {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav[b-j4cozyogpg] {
+  margin-top: 10px;
+}
+
+.nav-link[b-j4cozyogpg] {
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover[b-j4cozyogpg] {
+  color: #ffc107;
+}
+
+/* Footer styles */
+.footer[b-j4cozyogpg] {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-nav[b-j4cozyogpg] {
+      margin-top: 0;
+  }
+
+  .navbar-collapse[b-j4cozyogpg] {
+      text-align: center;
+  }
+
+  .navbar-toggler[b-j4cozyogpg] {
+      margin-top: 10px;
+  }
+}
